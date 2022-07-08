@@ -53,7 +53,7 @@ def test_fill_dataframe():
     for testfile in [
         "example_data/merged_data_cleaned.csv",
         "example_data/glaciers/glaciers.csv",
-        "example_data/city_temperature.csv"
+        #"example_data/city_temperature.csv"
     ]:
 
         df = pd.read_csv(testfile)
